@@ -1,4 +1,4 @@
-Need to install
+Need to install (install.sh)
 ```
 sudo apt-get install curl
 sudo apt-get install nodejs
