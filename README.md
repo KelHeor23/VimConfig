@@ -7,12 +7,13 @@ sudo apt-get install clangd
 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+cp .vimrc ~/
 ```
 
 And enter some commands in vim
 ```
 :PlugInstall
 :CocInstall coc-cmake
-:w
 :source %
 ```
